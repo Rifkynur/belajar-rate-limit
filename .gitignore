@@ -1,0 +1,88 @@
+# Node / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-store/
+
+# Build output
+dist/
+build/
+out/
+coverage/
+.nyc_output/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+debug.log
+
+# Runtime
+pids/
+*.pid
+*.seed
+*.pid.lock
+tmp/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Mac / Linux swap/temp
+*~
+.*.swp
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Docker
+docker-compose.override.yml
+**/Dockerfile
+
+# PM2
+pm2.pid
+pm2.log
+pm2.*
+
+# VSCode settings (if you don't want them in repo)
+.vscode/*
+
+# Secrets / certificates
+certs/
+*.key
+*.crt
+
+# Misc
+coverage/
+reports/
+local.env
+
+# If you use Next.js (optional)
+.next/
+.next/*
+
+# If you use React build in same repo (optional)
+build/
+
+# If you use Expo / React Native (optional)
+.expo/
+.expo-shared/
+android/
+ios/
+
